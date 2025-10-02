@@ -32,9 +32,9 @@ Step 3 — App skeleton
 - [x] Verify `npm run dev` starts without errors (server reachable on :3000)
 
 Step 4 — Styling (Tailwind)
-- [ ] Install `tailwindcss`, `postcss`, `autoprefixer`
-- [ ] Add `tailwind.config.js`, `postcss.config.js` and enable Tailwind in `globals.css`
-- [ ] Verify styles are applied in the running dev server
+- [x] Install `tailwindcss`, `postcss`, `autoprefixer`
+- [x] Add `tailwind.config.js`, `postcss.config.js` and enable Tailwind in `globals.css`
+- [x] Verify styles are applied in the running dev server (smoke: HTML served with directives)
 
 Step 5 — Basic util + unit tests
 - [ ] Add a small util (e.g. `src/utils/numberUtils.ts`) following guard-clauses/functional style
