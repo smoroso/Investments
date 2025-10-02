@@ -28,8 +28,8 @@ Step 2 — TypeScript basics
  - [x] Add a minimal `tsconfig.json` with a `@` -> `src` path alias
 
 Step 3 — App skeleton
-- [ ] Create `src/pages/_app.tsx`, `src/pages/index.tsx`, and `src/styles/globals.css`
-- [ ] Verify `npm run dev` starts without errors (server reachable on :3000)
+- [x] Create `src/pages/_app.tsx`, `src/pages/index.tsx`, and `src/styles/globals.css`
+- [x] Verify `npm run dev` starts without errors (server reachable on :3000)
 
 Step 4 — Styling (Tailwind)
 - [ ] Install `tailwindcss`, `postcss`, `autoprefixer`
