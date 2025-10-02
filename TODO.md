@@ -6,15 +6,18 @@ Core rules
 - One small, self-contained change per task (init, install, add one file, add one test, etc.)
 - Run tests or simple checks after each step.
 - I will ask for permission before making changes beyond the current task.
- - Use functional programming patterns in `src/utils` (pure functions, immutability, small composable helpers).
- - Prefer guard clauses and small early-returns instead of nested conditionals or long if/else chains.
- - Add unit tests for each util method (happy path + edge cases) and keep tests fast and deterministic.
- - Follow modern, idiomatic TypeScript/React patterns and keep files small and well-documented.
+- Use functional programming patterns in `src/utils` (pure functions, immutability, small composable helpers).
+- Prefer guard clauses and small early-returns instead of nested conditionals or long if/else chains.
+- Add unit tests for each util method (happy path + edge cases) and keep tests fast and deterministic.
+- Follow modern, idiomatic TypeScript/React patterns and keep files small and well-documented.
+- Ask for commit after each baby step if everything is clean and once we have test be sure they pass successfully first
 
 Step 1 — Project init (very small)
 - [ ] Create a git repo (if missing) and create a minimal `package.json` (npm init -y)
 - [ ] Install runtime deps: `next`, `react`, `react-dom`
 - [ ] Add npm scripts: `dev`, `build`, `start`
+ - [ ] Add a `.gitignore` with node/Next/env ignores
+ - [ ] Create a `src/` folder placeholder and add `.gitkeep` so repo isn't empty
 
 Step 2 — TypeScript basics
 - [ ] Install `typescript` and basic types: `@types/react`, `@types/node`, `@types/react-dom`
