@@ -11,17 +11,21 @@ Core rules
 - Add unit tests for each util method (happy path + edge cases) and keep tests fast and deterministic.
 - Follow modern, idiomatic TypeScript/React patterns and keep files small and well-documented.
 - Ask for commit after each baby step if everything is clean and once we have test be sure they pass successfully first
+- Update current file at each implemented subtask to mark it as done, before committing
 
 Step 1 — Project init (very small)
 - [ ] Create a git repo (if missing) and create a minimal `package.json` (npm init -y)
 - [ ] Install runtime deps: `next`, `react`, `react-dom`
 - [ ] Add npm scripts: `dev`, `build`, `start`
- - [ ] Add a `.gitignore` with node/Next/env ignores
- - [ ] Create a `src/` folder placeholder and add `.gitkeep` so repo isn't empty
+ - [x] Create a git repo (if missing) and create a minimal `package.json` (npm init -y)
+ - [x] Install runtime deps: `next`, `react`, `react-dom`
+ - [x] Add npm scripts: `dev`, `build`, `start`
+ - [x] Add a `.gitignore` with node/Next/env ignores
+ - [x] Create a `src/` folder placeholder and add `.gitkeep` so repo isn't empty
 
 Step 2 — TypeScript basics
-- [ ] Install `typescript` and basic types: `@types/react`, `@types/node`, `@types/react-dom`
-- [ ] Add a minimal `tsconfig.json` with a `@` -> `src` path alias
+ - [x] Install `typescript` and basic types: `@types/react`, `@types/node`, `@types/react-dom`
+ - [x] Add a minimal `tsconfig.json` with a `@` -> `src` path alias
 
 Step 3 — App skeleton
 - [ ] Create `src/pages/_app.tsx`, `src/pages/index.tsx`, and `src/styles/globals.css`
@@ -58,3 +62,6 @@ Step 10 — Deploy prep
 
 Notes / next action
 - I will not modify any files until you tell me which step to start with. Recommend starting with Step 1 (Project init). Reply "Start Step 1" and I will perform that step, run the minimal checks, and report back.
+
+Checked:
+- [x] Step 1 & Step 2 — implemented and committed (hash: f1faf42) on 2025-10-01
